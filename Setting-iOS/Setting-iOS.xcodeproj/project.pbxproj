@@ -13,6 +13,8 @@
 		B2F9879514E976AD0048EC16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2F9879314E976AD0048EC16 /* InfoPlist.strings */; };
 		B2F9879714E976AD0048EC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9879614E976AD0048EC16 /* main.m */; };
 		B2F9879B14E976AD0048EC16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9879A14E976AD0048EC16 /* AppDelegate.m */; };
+		B2F987A614E97BEC0048EC16 /* CoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F987A514E97BEC0048EC16 /* CoreViewController.m */; };
+		B2F987A914E97C1E0048EC16 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F987A814E97C1E0048EC16 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B2F9879814E976AD0048EC16 /* Setting-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Setting-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		B2F9879914E976AD0048EC16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2F9879A14E976AD0048EC16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2F987A414E97BEC0048EC16 /* CoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreViewController.h; sourceTree = "<group>"; };
+		B2F987A514E97BEC0048EC16 /* CoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreViewController.m; sourceTree = "<group>"; };
+		B2F987A714E97C1E0048EC16 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B2F987A814E97C1E0048EC16 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 			children = (
 				B2F9879914E976AD0048EC16 /* AppDelegate.h */,
 				B2F9879A14E976AD0048EC16 /* AppDelegate.m */,
+				B2F987A114E97A790048EC16 /* CoreViewController */,
+				B2F987A214E97A8B0048EC16 /* TableViewController */,
+				B2F987A314E97A9A0048EC16 /* CellViewController */,
 				B2F9879114E976AD0048EC16 /* Supporting Files */,
 			);
 			path = "Setting-iOS";
@@ -88,6 +97,31 @@
 				B2F9879814E976AD0048EC16 /* Setting-iOS-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2F987A114E97A790048EC16 /* CoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F987A414E97BEC0048EC16 /* CoreViewController.h */,
+				B2F987A514E97BEC0048EC16 /* CoreViewController.m */,
+			);
+			name = CoreViewController;
+			sourceTree = "<group>";
+		};
+		B2F987A214E97A8B0048EC16 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F987A714E97C1E0048EC16 /* TableViewController.h */,
+				B2F987A814E97C1E0048EC16 /* TableViewController.m */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		B2F987A314E97A9A0048EC16 /* CellViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CellViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +187,8 @@
 			files = (
 				B2F9879714E976AD0048EC16 /* main.m in Sources */,
 				B2F9879B14E976AD0048EC16 /* AppDelegate.m in Sources */,
+				B2F987A614E97BEC0048EC16 /* CoreViewController.m in Sources */,
+				B2F987A914E97C1E0048EC16 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
